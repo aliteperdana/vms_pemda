@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'sora-regular';
+    src: url('../font/Sora-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'sora-bold';
+    src: url('../font/Sora-ExtraBold.ttf');
+}
+
+body{
+    /* background-image: url('../img/bg.jpg'); */
+    background-image: url('../img/bg.svg');
+    background-size: cover;
+}
+
+/* .container.custom-container {
+    padding: 0 150px;
+} */
+
+.welcome{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'sora-bold';
+}
+
+.welcomeText{
+    padding-bottom: 3em;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'sora-regular';
+}
+
+.card.custom-rounded{
+    border-radius: 15px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-header-text{
+    font-family: 'sora-bold';
+    font-weight: 300;
+    color: rgb(97, 97, 97);
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.search{
+    padding-bottom: 2em;
+}
+
+.nav-custom{
+    background-color: rgba(221, 221, 221, 0.301);
+    border-radius: .25rem;
+}
+
+.nav-link.nav-link-custom{
+    color: rgb(97, 97, 97);
+}
+
+.footer{
+    background-color: #242424;
+    margin-top: 2em;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text{
+    color: white;
+    font-size: small;
+    font-family: 'sora-regular';
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.table-custom{
+    padding: 2em;
+}
+
+.total-vendor{
+    font-family: 'sora-regular';
+}
+
+.total-vendor-number{
+    font-family: 'sora-bold';
+    font-size: x-large;
+    font-weight: 900;
+    color: rgb(97, 97, 97);
+}
+
+.total-vendor-icon{
+    font-size: 3em;
+    color: #0d6efd;
+}
+
+table.tablepenyedia tbody{
+    font-size: smaller;
+}
+
+.profilvendor{
+    font-family: 'sora-regular';
+    font-size: smaller;
+    padding: 2em;
+    padding-bottom: 3em;
+    color: rgb(97, 97, 97);
+}
+
+.pill-verifikasi{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 1em;
+    font-weight: 100;
+    font-size: smaller;
+}
+
+.iconprofile{
+    align-items: center;
+    text-align: center;
+    /* padding-right: 1em; */
+}
+
+hr{
+    opacity: .15 !important;
+}
+
+.row.form-row.no-border-top{
+    padding-top: 1em;
+}
+.icontrophy{
+    color: gold;
+}
+
+#table_kontrak{
+    white-space: nowrap;
+}
+
+#table_stat, #table_stat_2, #table_stat_3{
+    white-space: nowrap;
+}
+
+.modal-dialog{
+    border-radius: 15px !important;
+}
+
+.modal-header{
+    background-color: rgba(0,0,0,.03);
+}
+
+.modal-title{
+    font-family: 'sora-bold';
+    font-weight: 300;
+    color: rgb(97, 97, 97);
+}
+
+.logo_riau_login{
+    padding-top: 2em;
+    width: 5em;
+    
+}
+
+.login_vms{
+    font-family: 'sora-bold';
+    color: white;
+    font-size: xx-large;
+    font-weight: 300;
+    margin-bottom: 0 !important;
+}
+
+.card_login{
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn_login{
+    width: 100%;
+}
+
+.login_copyright{
+    font-family: 'sora-regular';
+    color: white;
+    font-size: smaller;
+}
+
+.login_alert{
+    font-size: smaller;
+    padding: .5em;
+    margin-bottom: .5em;
+}
+
+.search_text{
+    color: white;
+    font-family: 'sora-bold';
+    font-size: x-large;
+    /* font-weight: 200; */
+    padding: 1em;
+}
+
+.session_nama{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: 'sora-regular';
+    font-weight: 100;
+    font-size: smaller;
+    margin-top: 1em;
+}
